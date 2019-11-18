@@ -1,0 +1,42 @@
+@import '../../../assets/style/border.scss';
+@import '../../../assets/style/theme.scss';
+footer{
+    height:.58rem;
+    @include border( #ccc, 1px 0 0 0 );
+    background: white;
+}
+ul{
+   list-style:none;
+   margin-top:0;
+   padding-top:.05rem;
+   display:flex;
+   justify-content:space-around;
+   align-items: center;
+   height: 100%; 
+   li{
+       a{
+           display: flex;
+           flex-direction:column;
+           justify-content:center;
+           text-decoration:none;
+           i{
+               color:#666;
+               font-size:.2rem;
+               margin-bottom:.04rem;
+           }
+           span{
+               color:#666;
+               font-size:.14rem;
+           }
+           &.active{
+               i{
+                   color:$theme;
+               }
+               span{
+                   color:$theme;
+                   font-size: bold;
+               }
+           }
+       }
+   }   
+}
