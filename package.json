@@ -11,7 +11,7 @@
     "http-proxy-middleware": "^0.20.0",
     "loadsh": "^0.0.4",
     "mint-ui": "^2.2.13",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "react": "^16.12.0",
     "react-app-rewired": "^2.1.5",
     "react-dom": "^16.12.0",
